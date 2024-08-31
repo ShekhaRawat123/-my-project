@@ -1,0 +1,279 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    position: relative;
+    height: 50px;
+    
+}
+/* css variables */
+:root{
+    --navbar-height: 59px;
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+
+}
+/* logo and image */
+/* list styling */
+#logo{  margin: -30px -18px;
+
+}
+  #logo img{ 
+    margin: 34px 45px;
+    height: 150px;
+    width: 150px;
+}
+    
+   #navbar ul{
+display: flex;
+
+
+    }
+    #navbar ul li{
+        /* color: white; */
+        list-style: none ;
+        font-size: 1.3rem;
+
+
+    }
+    #navbar ul li a{
+        color: white;
+        display: block;
+        padding:3px 22px;
+        border-radius: 15px;
+        text-decoration:none;
+    }  
+    #navbar::before{
+        content: "";
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width:100% ;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    #navbar ul li a:hover {
+        color: black;
+    background-color: white;
+    }
+    .servicescontainer {  margin:0px 3px;
+
+        /* background: url('/clint\ img\ 4.avif'); */
+
+
+       
+    } 
+    #home{
+        display: flex;
+        flex-direction: column;
+        padding: 100px 200px;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+
+
+    } 
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('/food\ back\ 2.jpg') no-repeat center center/cover ;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    opacity: 0.7;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+
+}
+#home h1{
+    color: black;
+    text-align: center;
+    font:1.5rem;
+
+}
+
+#home p{
+    color:black;
+    text-align:center;
+    font-size: 1.4rem;
+    z-index:5 ;
+    background-color: white;
+
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    margin: 6px;
+    font-size:1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* } */
+#services .box1 {border-radius: 16px; 
+    display: flex;
+      flex-direction: column; 
+      align-items: center;   
+      background-color: #FFF3E0;  
+ border: 2px solid brown;
+ height: 242px;
+ width:420px;
+ text-align: center;
+}
+ #services .box1 img{
+    height: 150px;
+    margin:6px  59px;
+    width: 135px;
+    text-align: center;
+ } 
+ #services {
+    width: 100%;    
+    display: flex;
+    /* border: 2px solid black; */
+    height: 300px;
+    margin:   30PX 0px;
+   
+    justify-content: space-around;
+     }
+
+.center { margin: auto;
+display: block;
+}
+.h-secondary.center{
+    margin: 0px 55px;
+}
+.box2 { height: 238px;
+    background-color: #FFF3E0;
+    width: 420px;
+    border-radius: 16px; 
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+  
+
+}
+.box2 img{
+
+     border: 2px solid brown;
+    height: 155px;
+    width: 135px;} 
+    .box3 img{     border: 2px solid brown;
+        height: 155px;
+        
+        width: 135px;;} 
+        .box3 { 
+            background-color: #FFF3E0;
+            border-radius: 16px; 
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+             height: 238px;
+            width: 420px;
+            border: 2px solid red;
+            text-align: center;
+
+        }
+    .servicescontainer{display: flex;
+ flex-direction: column; 
+margin: 30px 5px;
+justify-content: flex-start;
+height: 342px;
+    }
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+    #client1 img{
+        border-radius: 15px;
+        height: 130px;
+        width: 150px;
+    }#client2 img{  height: 150px;
+        width: 130px;
+        border-radius: 15px;
+
+    }
+#client3 img{  height: 130px;
+    width: 150px;
+    border-radius: 15px;
+
+}
+.h-primarycenter{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    
+    font-size: 3rem;
+    /* width: 30%; */
+
+}
+#client-section::before {
+    content: "";
+    position: absolute;
+    background: url('/clint\ img\ 4.avif');
+    width: 100%;
+    height: 40%;
+    opacity: 0.7;
+    z-index: -20;
+
+
+}
+.h-primarycenter {
+color: black;
+}
+
+.h-primary.center{
+    display: flex;
+    justify-content: space-around;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+        
+}
+#contact{
+    margin: 30px 0px;
+    height: 400px;
+}
+#contact::before{
+    content:"" ;
+    position: absolute;
+    width: 100%;
+
+    height: 60%;
+z-index: -5;
+opacity: 0.8;
+    background-image: url(form\ image.jpg);
+    border-radius: 18px;
+    margin: 20px 29ppx;
+
+}
+.centers {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: blue;
+}
+    
+
+    
+
+        
+    
+
+
